@@ -1,0 +1,40 @@
+<html> 
+<head>
+
+<script type="text/javascript">
+
+function displayNumber(n1){
+calculator.display.value+=n1;
+}
+
+</script>
+
+<title>Calculator</title>
+</head>
+
+<body>
+<form name="calculator">
+
+<input type="text" name="display" style="text-align:right"><br><br>
+<input type="button" name="btn9" value=9 onclick="displayNumber(btn9.value)">
+<input type="button" name="btn8" value=8 onclick="displayNumber(btn8.value)">
+<input type="button" name="btn7" value=7 onclick="displayNumber(btn7.value)">
+<input type="button" name="addbtn" value=+ onclick="displayNumber(addbtn.value)"><br>
+<input type="button" name="btn6" value=6 onclick="displayNumber(btn6.value)">
+<input type="button" name="btn5" value=5 onclick="displayNumber(btn5.value)">
+<input type="button" name="btn4" value=4 onclick="displayNumber(btn4.value)">
+<input type="button" name="subbtn" value=- onclick="displayNumber(subbtn.value)"><br>
+<input type="button" name="btn3" value=3 onclick="displayNumber(btn3.value)">
+<input type="button" name="btn2" value=2 onclick="displayNumber(btn2.value)">
+<input type="button" name="btn1" value=1 onclick="displayNumber(btn1.value)">
+<input type="button" name="mulbtn" value=* onclick="displayNumber(mulbtn.value)"><br>
+<input type="button" name="btn0" value=0 onclick="displayNumber(btn0.value)">
+<input type="button" name="dotbtn" value=. onclick="displayNumber(dotbtn.value)">
+<input type="button" name="divbtn" value=/ onclick="displayNumber(divbtn.value)">
+<input type="button" name="equalbtn" value== onclick="display.value=eval(display.value)"><br>
+<input type="button" name="clear" value=clear onclick="displayNumber( )">
+
+
+</form>
+</body>
+</html>
